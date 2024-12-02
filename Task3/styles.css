@@ -1,0 +1,40 @@
+/* Default styles for larger screens */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: olive; 
+}
+
+header h1 {
+  color: black; 
+  background-color: blanchedalmond; 
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section p {
+  color: black; 
+  margin: 15px 0;
+}
+
+footer p {
+  background-color: whitesmoke;
+  color: rebeccapurple;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  body {
+    background-color: lightpink; 
+  }
+
+  header h1 {
+    background-color: white; 
+  }
+
+  footer p {
+    background-color: mediumpurple; 
+}
