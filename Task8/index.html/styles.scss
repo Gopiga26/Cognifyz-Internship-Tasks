@@ -1,1 +1,59 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f9f9f9;
+$text-color: #333;
 
+// Body Styling
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+
+  // Nested styles for headings
+  h1 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+// Button Styling
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+   background-color: scale($primary-color, -10%);
+
+
+
+  }
+}
+
+// Container Styling
+.container {
+  padding: 20px;
+
+  .card {
+    background-color: white;
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    h2 {
+      color: $primary-color;
+    }
+
+    p {
+      color: $secondary-color;
+    }
+  }
+}
